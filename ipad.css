@@ -1,3 +1,5 @@
 @media(min-width:768px){.app-shell{padding-inline:34px}.topbar{height:94px}.hero{min-height:360px;padding:42px 52px}.menu-grid{gap:20px}.menu-card{min-height:225px;padding:18px}.menu-card .art,.menu-card .art svg{height:125px}.menu-card h3{font-size:18px}.lesson-grid{grid-template-columns:repeat(6,1fr)}.lesson-card{min-height:175px}.game-panel{padding:32px 40px}.choice{min-height:78px;font-size:22px}.map-path{gap:25px}.map-stop{min-height:160px;padding:18px}.map-stop .stop-icon{font-size:52px}.reward-grid{grid-template-columns:repeat(5,1fr)}}
 @media(min-width:768px) and (orientation:landscape){.hero{grid-template-columns:1.1fr .9fr}.hero-art{min-height:300px}.menu-card{min-height:210px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(min-width:768px){.map-scene{min-height:470px;padding:34px}.map-path{min-height:390px;gap:22px}.map-stop{min-height:175px}.map-stop .stop-icon{font-size:58px}}
+@media(max-width:700px){.map-path{grid-template-columns:repeat(2,minmax(0,1fr))}.map-stop b{font-size:12px}}
