@@ -23,7 +23,7 @@
 .page-letters{background:linear-gradient(rgba(255,250,244,.72),rgba(255,250,244,.82)),url('assets/backgrounds/classroom.svg') center top/cover no-repeat}
 .page-words,.page-games{background:linear-gradient(rgba(255,250,248,.76),rgba(255,250,248,.84)),url('assets/backgrounds/home-world.jpg') center/cover no-repeat}
 .page-stories,.page-story{background:linear-gradient(rgba(255,250,246,.70),rgba(255,250,246,.82)),url('assets/backgrounds/story.svg') center/cover no-repeat}
-.page-map{background:linear-gradient(rgba(248,255,248,.65),rgba(248,255,248,.75)),url('assets/backgrounds/adventure.svg') center/cover no-repeat}
+.page-map{background:linear-gradient(rgba(248,255,248,.65),rgba(248,255,248,.75)),url('assets/backgrounds/adventure-world.jpg') center/cover no-repeat}
 .page-rewards,.page-progress{background:linear-gradient(rgba(255,249,232,.7),rgba(255,249,232,.8)),url('assets/backgrounds/rewards.svg') center/cover no-repeat}
 .page-trace{background:linear-gradient(rgba(255,247,250,.78),rgba(255,247,250,.86)),url('assets/backgrounds/classroom.svg') center/cover no-repeat}
 .page-guide{margin-left:auto;display:flex;align-items:center;gap:7px;background:#fff9;border:2px solid #fff;border-radius:22px;padding:4px 10px 4px 4px;color:#8b719d;font-size:12px;font-weight:700}
