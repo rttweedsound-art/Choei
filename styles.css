@@ -211,3 +211,23 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;ba
 .page-home .buddy-strip{border-radius:24px;padding:16px 22px;background:linear-gradient(100deg,#fff6d9,#ffe8f1 50%,#e3f5ff);border:3px solid #fff;box-shadow:0 7px 0 #8b88a31c,0 13px 24px #53648718}
 @media(max-width:850px){.page-home .hero{min-height:360px;padding:25px}.page-home .hero-art{min-height:255px}.page-home .character-group{min-height:255px}}
 @media(max-width:560px){.page-home .hero{padding:21px 16px 10px;min-height:0;background-position:57% center}.page-home .hero h1{font-size:37px}.page-home .hero-copy p{font-size:13px}.page-home .hero-art{min-height:185px}.page-home .character-group{min-height:185px}.page-home .menu-card{min-height:185px}.page-home .menu-card .art{height:104px;min-height:104px}.page-home .menu-card .art svg{height:100px}.page-home .menu-card h3{font-size:14px}}
+
+
+/* Adventure-world visual pass */
+.map-scene{isolation:isolate;background:#a9dff0 url('assets/backgrounds/adventure.svg') center/cover no-repeat;border-color:#fff;min-height:430px;padding:26px}
+.map-scene:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,250,232,.26) 55%,rgba(255,246,221,.48))}
+.map-path{position:relative;z-index:1;min-height:360px;gap:16px}
+.map-stop{backdrop-filter:blur(8px);background:rgba(255,255,255,.88);border:3px solid rgba(255,255,255,.96);box-shadow:0 7px 0 rgba(91,142,105,.28),0 12px 24px rgba(68,100,91,.16);transition:transform .18s,box-shadow .18s}
+.map-stop:not(.locked):hover{transform:translateY(-6px) rotate(-1deg);box-shadow:0 10px 0 rgba(91,142,105,.24),0 16px 28px rgba(68,100,91,.18)}
+.map-stop .stop-icon{display:block;margin-bottom:7px;filter:drop-shadow(0 4px 3px rgba(73,80,75,.12))}
+.map-stop.locked{background:rgba(247,247,247,.82)}
+.hero{background:linear-gradient(110deg,rgba(255,240,209,.93),rgba(255,232,239,.84) 48%,rgba(232,231,255,.84)),url('assets/backgrounds/home-world.jpg') center/cover}
+.hero-art .mascot{animation:buddy-float 3.8s ease-in-out infinite}
+.hero-art .mascot-boy{animation-delay:.35s}
+.hero-art .mascot-owl{animation-delay:.7s}
+.hero-art .mascot-cat{animation-delay:1s}
+@keyframes buddy-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.menu-card{transition:transform .2s ease,box-shadow .2s ease}
+.menu-card:hover{box-shadow:0 11px 0 rgba(117,87,142,.10),0 18px 30px rgba(117,87,142,.14)}
+@media(max-width:700px){.map-scene{min-height:500px;padding:15px}.map-path{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-height:460px}.map-stop{min-height:150px}.hero{background-position:center;background-size:cover}.hero-art .mascot{max-height:175px}}
+@media(prefers-reduced-motion:reduce){.hero-art .mascot{animation:none}}
