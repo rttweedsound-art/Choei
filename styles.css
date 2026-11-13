@@ -186,3 +186,28 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;ba
 .section-head h2{color:#594477}
 .star-pill{background:linear-gradient(135deg,#fff7d4,#ffe9a6);border:2px solid #fff;box-shadow:0 4px 0 #e7c66f}
 @media(max-width:560px){.hero{min-height:0;background-position:58% center;padding:22px 17px 10px}.hero-art{min-height:175px}.menu-card{min-height:188px}.menu-card .art,.menu-card .art svg{height:105px}}
+
+/* HOME SCREEN PASS 03: immersive game-like layout */
+.page-home{padding-top:4px}
+.page-home .hero{min-height:420px;border-radius:34px;padding:32px 38px;background-image:linear-gradient(90deg,rgba(255,249,232,.94) 0%,rgba(255,244,226,.78) 42%,rgba(232,246,255,.08) 75%),url('assets/backgrounds/home.svg');background-size:cover;background-position:center;box-shadow:0 8px 0 #83bd9a55,0 18px 38px #476b8b26;border:5px solid #fff}
+.page-home .hero-copy{max-width:500px}
+.page-home .hero h1{font-size:clamp(38px,5.3vw,62px);line-height:1.12;color:#4f4778;text-shadow:0 2px 0 #fff,0 5px 16px #fff8}
+.page-home .hero h1 em{color:#ec6994}
+.page-home .hero-copy p{font-size:16px;color:#53627b;font-weight:600;text-shadow:0 1px 0 #fff}
+.page-home .hero-art{min-height:320px}
+.page-home .character-group{min-height:320px;align-items:flex-end}
+.page-home .mascot{filter:drop-shadow(0 12px 10px #34536b44)}
+.page-home .primary{border-radius:19px;padding:14px 24px;background:linear-gradient(180deg,#ffbb57,#f27b73);border:3px solid #fff;box-shadow:0 6px 0 #ce6a66,0 12px 20px #a85e5540;font-size:16px}
+.page-home .section-head{margin-top:32px}
+.page-home .section-head h2{font-size:27px;color:#4e587e}
+.page-home .menu-grid{gap:18px}
+.page-home .menu-card{min-height:224px;border:4px solid #fff;border-radius:28px;box-shadow:0 7px 0 #7c7da32a,0 15px 26px #4b5d8522;overflow:hidden}
+.page-home .menu-card:before{content:"";position:absolute;inset:0 0 auto;height:7px;background:linear-gradient(90deg,#fff9,#fff2);pointer-events:none}
+.page-home .menu-card .art{height:135px;min-height:135px}
+.page-home .menu-card .art svg{height:125px;filter:drop-shadow(0 8px 5px #56607830)}
+.page-home .menu-card h3{font-size:18px;color:#3f4e72;background:#ffffffdc;border-radius:14px;padding:5px 11px;box-shadow:0 3px 9px #45516b20}
+.page-home .menu-card p{font-size:12px;color:#65718a;background:#ffffffd9;border-radius:10px;padding:2px 8px}
+.page-home .menu-card .go{width:32px;height:32px;background:linear-gradient(145deg,#fff,#f2eaff);color:#7960b4;box-shadow:0 4px 0 #d9d0e9;font-size:21px}
+.page-home .buddy-strip{border-radius:24px;padding:16px 22px;background:linear-gradient(100deg,#fff6d9,#ffe8f1 50%,#e3f5ff);border:3px solid #fff;box-shadow:0 7px 0 #8b88a31c,0 13px 24px #53648718}
+@media(max-width:850px){.page-home .hero{min-height:360px;padding:25px}.page-home .hero-art{min-height:255px}.page-home .character-group{min-height:255px}}
+@media(max-width:560px){.page-home .hero{padding:21px 16px 10px;min-height:0;background-position:57% center}.page-home .hero h1{font-size:37px}.page-home .hero-copy p{font-size:13px}.page-home .hero-art{min-height:185px}.page-home .character-group{min-height:185px}.page-home .menu-card{min-height:185px}.page-home .menu-card .art{height:104px;min-height:104px}.page-home .menu-card .art svg{height:100px}.page-home .menu-card h3{font-size:14px}}
