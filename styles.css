@@ -31,3 +31,5 @@
 .lesson-card,.activity-card,.reward-card,.progress-box,.game-panel,.map-stop{backdrop-filter:blur(4px);background-color:rgba(255,255,255,.91)}
 @media(max-width:650px){.hero{background-position:center}.hero-art{min-height:195px}.character-group{min-height:190px}.mascot-girl{max-height:190px}.mascot-boy{max-height:185px}.mascot-owl{max-height:115px}.mascot-cat{max-height:105px}.menu-card .art{height:105px;min-height:105px}.page-guide span{display:none}}
 @media(min-width:768px){.hero{min-height:385px}.character-group{min-height:330px}.mascot-girl{max-height:330px}.mascot-boy{max-height:315px}.menu-card .art{height:145px;min-height:145px}}
+
+.avatar-mini{display:block;width:34px;height:34px;object-fit:contain}.avatar-button{display:grid;place-items:center;overflow:hidden}.page-guide img{flex:none}
