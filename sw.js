@@ -1,7 +1,7 @@
-const C='tiny-reader-v13';
+const C='tiny-reader-v14';
 const A=['./','./index.html','./styles.css','./ipad.css','./app.js','./manifest.json','./icons/icon.svg','./hero-game.png',
 './assets/characters/dao.svg','./assets/characters/ton.svg','./assets/characters/owl.svg','./assets/characters/cat.svg',
-'./assets/backgrounds/home.svg','./assets/backgrounds/classroom.svg','./assets/backgrounds/story.svg','./assets/backgrounds/adventure.svg','./assets/backgrounds/rewards.svg',
+'./assets/backgrounds/home.svg','./assets/backgrounds/home-world.jpg','./assets/backgrounds/classroom.svg','./assets/backgrounds/story.svg','./assets/backgrounds/adventure.svg','./assets/backgrounds/rewards.svg',
 './assets/ui/menu-letters.svg','./assets/ui/menu-words.svg','./assets/ui/menu-games.svg','./assets/ui/menu-stories.svg','./assets/ui/menu-map.svg','./assets/ui/menu-rewards.svg','./assets/ui/menu-trace.svg','./assets/ui/menu-progress.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A)).then(()=>skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('tiny-reader-')&&k!==C).map(k=>caches.delete(k)))).then(()=>clients.claim())));

@@ -5,7 +5,7 @@
 @media(max-width:560px){.app-shell{padding:0 13px}.topbar{height:72px}.brand-mark{width:42px;height:42px}.brand b{font-size:16px}.hero{grid-template-columns:1fr;padding:23px 20px 12px;text-align:center;min-height:0}.hero-copy{margin:auto}.hero h1{font-size:35px}.hero-art{min-height:170px}.hero-art svg{height:185px}.menu-grid{gap:10px}.menu-card{min-height:174px;padding:10px;border-radius:22px}.menu-card .art,.menu-card .art svg{height:92px}.menu-card h3{font-size:14px}.menu-card p{font-size:10px}.section-head h2{font-size:21px}.section-head{margin-top:24px}.lesson-grid{grid-template-columns:repeat(2,1fr);gap:10px}.lesson-card{min-height:140px;padding:10px}.lesson-card .big-letter{font-size:44px}.choices{gap:8px}.choice{font-size:17px;min-height:60px}.game-panel{padding:15px 12px;border-radius:25px}.page-title{font-size:26px}.map-path{grid-template-columns:repeat(2,1fr)}.map-scene{padding:14px}.map-stop{min-height:120px}.reward-grid{grid-template-columns:repeat(2,1fr)}.activity-grid{grid-template-columns:1fr 1fr}.activity-card{padding:12px}.activity-card .activity-art{height:90px;font-size:55px}.progress-stats{grid-template-columns:1fr 1fr}.footer{font-size:9px}.buddy-strip{padding:12px}.story-text{font-size:17px}}
 
 /* Illustrated storybook asset system */
-.hero{background-image:linear-gradient(90deg,rgba(255,245,222,.90),rgba(255,236,246,.48) 52%,rgba(224,245,255,.16)),url('assets/backgrounds/home.svg');background-size:cover;background-position:center}
+.hero{background-image:linear-gradient(90deg,rgba(255,245,222,.90),rgba(255,236,246,.48) 52%,rgba(224,245,255,.16)),url('assets/backgrounds/home-world.jpg');background-size:cover;background-position:center}
 .hero-art{min-height:285px}
 .character-group{width:100%;height:100%;min-height:270px;display:flex;align-items:flex-end;justify-content:center;gap:0;position:relative}
 .mascot{object-fit:contain;filter:drop-shadow(0 8px 8px rgba(104,72,91,.16));height:auto}
@@ -21,7 +21,7 @@
 .page{position:relative;border-radius:30px}
 .page-home{background:radial-gradient(ellipse at 5% 75%,rgba(255,190,215,.22),transparent 32%),radial-gradient(ellipse at 98% 20%,rgba(155,216,242,.22),transparent 30%)}
 .page-letters{background:linear-gradient(rgba(255,250,244,.72),rgba(255,250,244,.82)),url('assets/backgrounds/classroom.svg') center top/cover no-repeat}
-.page-words,.page-games{background:linear-gradient(rgba(255,250,248,.76),rgba(255,250,248,.84)),url('assets/backgrounds/home.svg') center/cover no-repeat}
+.page-words,.page-games{background:linear-gradient(rgba(255,250,248,.76),rgba(255,250,248,.84)),url('assets/backgrounds/home-world.jpg') center/cover no-repeat}
 .page-stories,.page-story{background:linear-gradient(rgba(255,250,246,.70),rgba(255,250,246,.82)),url('assets/backgrounds/story.svg') center/cover no-repeat}
 .page-map{background:linear-gradient(rgba(248,255,248,.65),rgba(248,255,248,.75)),url('assets/backgrounds/adventure.svg') center/cover no-repeat}
 .page-rewards,.page-progress{background:linear-gradient(rgba(255,249,232,.7),rgba(255,249,232,.8)),url('assets/backgrounds/rewards.svg') center/cover no-repeat}
@@ -64,7 +64,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;ba
 .avatar-button{width:52px;height:52px;border:3px solid white;background:linear-gradient(145deg,#d8f4ff,#e8e1ff);box-shadow:0 5px 0 #c9c2e8}
 .page{padding:12px 0 48px;animation:storybook-enter .42s cubic-bezier(.2,.8,.2,1) both}
 @keyframes storybook-enter{from{opacity:0;transform:translateY(14px) scale(.99)}to{opacity:1;transform:none}}
-.hero{min-height:420px;padding:42px 54px;border:5px solid white;border-radius:38px;background-image:linear-gradient(90deg,rgba(255,249,224,.95),rgba(255,236,243,.68) 48%,rgba(220,242,255,.2)),url('assets/backgrounds/home.svg');box-shadow:0 8px 0 #e8d9e6,0 20px 38px #7e8bb522;grid-template-columns:1fr 1fr}
+.hero{min-height:420px;padding:42px 54px;border:5px solid white;border-radius:38px;background-image:linear-gradient(90deg,rgba(255,249,224,.95),rgba(255,236,243,.68) 48%,rgba(220,242,255,.2)),url('assets/backgrounds/home-world.jpg');box-shadow:0 8px 0 #e8d9e6,0 20px 38px #7e8bb522;grid-template-columns:1fr 1fr}
 .hero-copy{max-width:570px}
 .eyebrow{background:#fff;border:2px solid #fff;color:#9275ad;box-shadow:0 3px 0 #e9d9ed;font-size:13px;padding:7px 15px}
 .hero h1{font-size:clamp(40px,5vw,64px);line-height:1.18;letter-spacing:-1.5px;color:#5d628d;margin:17px 0 12px;text-shadow:0 3px 0 #fff}
@@ -169,7 +169,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;ba
 @media(max-width:680px){.classroom-stage{grid-template-columns:1fr;padding:13px;gap:10px}.classroom-guide{justify-content:center;text-align:left}.classroom-guide img{width:90px;height:90px}.classroom-guide p{font-size:11px}.classroom-board{gap:10px;padding:12px}.board-book{width:58px;height:58px;font-size:32px;border-radius:16px}.board-copy strong{font-size:38px}.board-copy>span:last-child{font-size:10px}.board-progress{min-width:65px}.board-progress b{font-size:17px}.buddy-strip .buddy-owl{width:44px;height:44px}}
 
 /* Choei visual refresh: brighter fantasy-world home screen */
-.hero{min-height:390px;border:5px solid #fff;border-radius:34px;background-image:linear-gradient(90deg,rgba(255,248,225,.96) 0%,rgba(255,242,222,.86) 43%,rgba(226,247,255,.18) 76%),url('assets/backgrounds/home.svg');background-position:center;background-size:cover;box-shadow:0 12px 0 rgba(68,155,130,.12),0 22px 42px rgba(64,117,145,.16)}
+.hero{min-height:390px;border:5px solid #fff;border-radius:34px;background-image:linear-gradient(90deg,rgba(255,248,225,.96) 0%,rgba(255,242,222,.86) 43%,rgba(226,247,255,.18) 76%),url('assets/backgrounds/home-world.jpg');background-position:center;background-size:cover;box-shadow:0 12px 0 rgba(68,155,130,.12),0 22px 42px rgba(64,117,145,.16)}
 .hero h1{color:#573e76;text-shadow:0 2px 0 #fff;font-weight:800;letter-spacing:-1px}
 .hero h1 em{color:#f06f9c;text-shadow:0 2px 0 #fff}
 .hero-copy p{color:#5c617c;font-weight:600}
@@ -189,7 +189,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;ba
 
 /* HOME SCREEN PASS 03: immersive game-like layout */
 .page-home{padding-top:4px}
-.page-home .hero{min-height:420px;border-radius:34px;padding:32px 38px;background-image:linear-gradient(90deg,rgba(255,249,232,.94) 0%,rgba(255,244,226,.78) 42%,rgba(232,246,255,.08) 75%),url('assets/backgrounds/home.svg');background-size:cover;background-position:center;box-shadow:0 8px 0 #83bd9a55,0 18px 38px #476b8b26;border:5px solid #fff}
+.page-home .hero{min-height:420px;border-radius:34px;padding:32px 38px;background-image:linear-gradient(90deg,rgba(255,249,232,.94) 0%,rgba(255,244,226,.78) 42%,rgba(232,246,255,.08) 75%),url('assets/backgrounds/home-world.jpg');background-size:cover;background-position:center;box-shadow:0 8px 0 #83bd9a55,0 18px 38px #476b8b26;border:5px solid #fff}
 .page-home .hero-copy{max-width:500px}
 .page-home .hero h1{font-size:clamp(38px,5.3vw,62px);line-height:1.12;color:#4f4778;text-shadow:0 2px 0 #fff,0 5px 16px #fff8}
 .page-home .hero h1 em{color:#ec6994}
