@@ -1,4 +1,4 @@
-const C='tiny-reader-v18';
+const C='tiny-reader-v19';
 const A=['./','./index.html','./styles.css','./ipad.css','./app.js','./manifest.json','./icons/icon.svg','./hero-game.png',
 './assets/characters/dao.svg','./assets/characters/ton.svg','./assets/characters/owl.svg','./assets/characters/cat.svg',
 './assets/backgrounds/home.svg','./assets/backgrounds/home-world.jpg','./assets/backgrounds/classroom.svg','./assets/backgrounds/story.svg','./assets/backgrounds/adventure.svg','./assets/backgrounds/dventure-world.jpg','./assets/backgrounds/rewards.svg',
