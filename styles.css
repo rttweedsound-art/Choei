@@ -214,7 +214,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;ba
 
 
 /* Adventure-world visual pass */
-.map-scene{isolation:isolate;background:#a9dff0 url('assets/backgrounds/adventure.svg') center/cover no-repeat;border-color:#fff;min-height:430px;padding:26px}
+.map-scene{isolation:isolate;background:#a9dff0 url('assets/backgrounds/dventure-world.jpg') center/cover no-repeat;border-color:#fff;min-height:430px;padding:26px}
 .map-scene:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,250,232,.26) 55%,rgba(255,246,221,.48))}
 .map-path{position:relative;z-index:1;min-height:360px;gap:16px}
 .map-stop{backdrop-filter:blur(8px);background:rgba(255,255,255,.88);border:3px solid rgba(255,255,255,.96);box-shadow:0 7px 0 rgba(91,142,105,.28),0 12px 24px rgba(68,100,91,.16);transition:transform .18s,box-shadow .18s}
